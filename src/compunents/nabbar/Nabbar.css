@@ -1,0 +1,71 @@
+.nabbar{
+    display: flex;
+    align-items: center;
+    width: 98wh;
+    height: 7vh;
+    background-image: linear-gradient(to right, #4283b2 , #42b296);
+    margin: 10px;
+}
+.nabbar__left{
+    display: flex;
+    align-items: center;
+    flex: 0.6;
+    margin-left: 20px;
+}
+.nabbar__logo{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+.nabbar__logo__icon{
+    color: #f9f9f9 !important;
+    font-size: 26px !important;
+}
+.nabbar__logo__text{
+    font-size: 19px;
+    color: #f9f9f9;
+    font-weight: 400;
+}
+.nabbar__items{
+    display: flex;
+}
+.nabbar__items > h5{
+    color: #f9f9f9;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.active{
+    border-bottom: 3px solid white;
+}
+.nabbar__items > h5:hover{
+    border-bottom: 3px solid white;
+}
+.nabbar>h1{
+    color: white;
+    font-weight: 400;
+}
+.nabbar__right{
+    display: flex;
+    flex: 0.4;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 20px;
+    align-items: center;
+}
+.nabbar__right > h1{
+    color: #f9f9f9;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.nabbar__right >h1:hover{
+    border-bottom: 3px solid white;
+}

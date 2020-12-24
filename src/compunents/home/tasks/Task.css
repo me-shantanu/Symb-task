@@ -1,0 +1,67 @@
+.task{
+    display: flex;
+    margin-left: 20px;
+
+}
+.taskleft{
+    padding: 25px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+}
+.taskleft__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.taskleft__header >h4{
+    font-size: 19px;
+    font-weight: 400;
+    color: #222;
+}
+.task__header__right{
+    display: flex;
+    align-items: center;
+
+}
+.task__header__right>p{
+    font-size: 14px;
+    color:  #4283b2;
+    cursor: pointer;
+}
+.task__header__icon{
+    color: #4283b2 !important;
+}
+.taskleft__main{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.taskleft__main>hr{
+    color: #42b27a;
+}
+
+.taskleft__main__item{
+    display: flex;
+    margin: 20px;
+}
+.taskleft__main__item__text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.taskleft__main__item__text>h4{
+    font-size: 15px;
+    font-weight: 400;
+    color: #222;
+
+}
+.taskleft__main__item__text>h4>span{
+    color:  #4283b2;
+}
+.taskleft__main__item__text>p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #666;
+}
